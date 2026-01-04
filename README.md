@@ -10,8 +10,6 @@
 
 A modern, responsive corporate website built with React, TypeScript, and cutting-edge web technologies for Precision Engineering Products - a leading manufacturer of heavy-duty machinery and automotive components established in 2007.
 
-🌐 **Live Demo:** [precision-engineering.com](https://precision-engineering.com)
-
 ---
 
 ## 📋 Table of Contents
