@@ -1,73 +1,130 @@
-# Welcome to your Lovable project
+# Precision Engineering Products - Official Website
 
-## Project info
+[![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC.svg)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**URL**: https://lovable.dev/projects/828444d5-bd81-4168-baf1-4c6a82d0e75b
+> **Precision-engineered components for mining, material handling, and industrial applications. ISO 9001:2015 certified manufacturing excellence.**
 
-## How can I edit this code?
+A modern, responsive corporate website built with React, TypeScript, and cutting-edge web technologies for Precision Engineering Products - a leading manufacturer of heavy-duty machinery and automotive components established in 2007.
 
-There are several ways of editing your application.
+🌐 **Live Demo:** [precision-engineering.com](https://precision-engineering.com)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/828444d5-bd81-4168-baf1-4c6a82d0e75b) and start prompting.
+## 📋 Table of Contents
 
-Changes made via Lovable will be committed automatically to this repo.
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Available Scripts](#-available-scripts)
+- [Product Categories](#-product-categories)
+- [Manufacturing Capabilities](#-manufacturing-capabilities)
+- [Deployment](#-deployment)
+- [Performance Optimization](#-performance-optimization)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Core Functionality
+- 🏭 **Product Showcase** - Comprehensive display of 8+ product categories with detailed specifications
+- 🔧 **Manufacturing Capabilities** - VTL, VMC, and CNC machining centers documentation
+- 🏢 **Company Information** - About us, leadership team, manufacturing units
+- 📸 **Dynamic Gallery** - Image gallery with lightbox functionality
+- 📱 **Contact Forms** - Multi-step contact and quote request forms
+- 🗺️ **Interactive Maps** - Google Maps integration for facility locations
 
-Follow these steps:
+### Technical Features
+- ⚡ **Blazing Fast Performance** - Built with Vite for optimal load times
+- 📱 **Fully Responsive** - Mobile-first design approach
+- ♿ **Accessible** - WCAG 2.1 AA compliant
+- 🎨 **Smooth Animations** - Framer Motion powered transitions
+- 🔍 **SEO Optimized** - Dynamic meta tags, sitemap, robots.txt
+- 🎯 **Type Safety** - Full TypeScript implementation
+- 🎭 **Modern UI/UX** - Tailwind CSS with custom design system
+- 🚀 **PWA Ready** - Progressive Web App capabilities
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Frontend Framework
+- **React 18.3** - UI library with latest features
+- **TypeScript 5.x** - Type-safe development
+- **Vite 5.x** - Next-generation build tool
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Styling & Animation
+- **Tailwind CSS 3.x** - Utility-first CSS framework
+- **Framer Motion** - Production-ready animation library
+- **Lucide React** - Modern icon library
 
-**Edit a file directly in GitHub**
+### Routing & State
+- **React Router DOM** - Client-side routing
+- **React Hooks** - State management (useState, useEffect, useRef)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Form Handling
+- **React Hook Form** - Performant form validation
+- **Zod** - TypeScript-first schema validation
 
-**Use GitHub Codespaces**
+### Additional Libraries
+- **Swiper** - Modern slider/carousel
+- **React Intersection Observer** - Scroll animations
+- **Sonner** - Toast notifications
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Development Tools
+- **ESLint** - Code linting
+- **PostCSS** - CSS transformations
+- **Autoprefixer** - CSS vendor prefixing
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📁 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/828444d5-bd81-4168-baf1-4c6a82d0e75b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+precision-digital-presence/
+├── public/
+│ ├── robots.txt
+│ └── sitemap.xml
+├── src/
+│ ├── assets/ # Images, logos, product images
+│ │ ├── facility.jpg
+│ │ ├── factory.jpg
+│ │ ├── machining.jpg
+│ │ ├── products-*.jpg
+│ │ └── RotaryAirlockValve.jpeg
+│ ├── components/ # Reusable React components
+│ │ ├── AnimatedSection.tsx
+│ │ ├── AnimatedCounter.tsx
+│ │ ├── Breadcrumb.tsx
+│ │ ├── Capabilities.tsx
+│ │ ├── Footer.tsx
+│ │ ├── Header.tsx
+│ │ ├── Hero.tsx
+│ │ ├── Leadership.tsx
+│ │ ├── PageTransition.tsx
+│ │ ├── Products.tsx
+│ │ ├── SEO.tsx
+│ │ └── TypewriterText.tsx
+│ ├── pages/ # Page components
+│ │ ├── AboutPage.tsx
+│ │ ├── ProductsPage.tsx
+│ │ ├── FacilitiesPage.tsx
+│ │ ├── ContactPage.tsx
+│ │ └── Index.tsx
+│ ├── lib/ # Utility functions
+│ │ └── utils.ts
+│ ├── App.tsx # Main app component
+│ ├── main.tsx # Application entry point
+│ └── index.css # Global styles
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
+├── vite.config.ts
+└── README.md
